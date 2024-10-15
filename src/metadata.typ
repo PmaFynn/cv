@@ -24,7 +24,7 @@
 
 #let accentColor = "burgundy"
 
-#let profilePhoto = "images/avatar.png" // Leave empty if profil photo is not needed
+#let profilePhoto = "images/cvImage-modified.png" // Leave empty if profil photo is not needed
 
 #let varEntryOrganisationFirst = false // Choose whether to put company or position in bold
 
