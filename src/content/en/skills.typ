@@ -16,5 +16,7 @@
 )
 */
 
-#skill("test", 5)
-#skill("typst", 2)
+#skill("Power Automate, Sharepoint", 5)
+#skill("Git, SQL (PostgreSQL, Oracle)", 4)
+#skill("Rust, Python, JS, HTML/CSS", 3)
+#skill("Docker", 2)

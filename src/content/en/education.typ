@@ -3,14 +3,13 @@
 #cvSection("Education")
 
 #cvEntry(
-    title: [Master of Science in Information Systems],
+    title: [M.Sc in Information Systems],
     organisation: [Universität Münster],
     //TODO: insert uni muenster logo here
     logo: "",
-    date: [2023 - now],
-    location: [Germany],
+    date: [10/2023 - now],
+    location: [Münster, Germany],
     description: list(
-        [#lorem(20)],
     ),
     tags: ("Information Systems Development", "Data Analytics")
 )
@@ -18,13 +17,28 @@
 #divider()
 
 #cvEntry(
-    title: [Bachelor of Science in Wirtschaftsinformatik],
+    title: [B.Sc in Information Systems],
     organisation: [Universität Münster],
     //TODO: insert uni muenster logo here
     logo: "",
-    date: [2019 - 2023],
-    location: [Germany],
+    date: [10/2019 - 03/2023],
+    location: [Münster, Germany],
     description: list(
-        [#lorem(20)],
+        [Pracital Bachelorthesis: Integration of Frontend Testing into a CI/CD Pipeline; Grade: 1.0],
+        //[Final grade: 2.0],
+    ),
+)
+
+#divider()
+
+#cvEntry(
+    title: [General University Entrance Qualification],
+    organisation: [Gymnasium am Moltkeplatz],
+    //TODO: insert uni muenster logo here
+    logo: "",
+    date: [08/2011 - 06/2019],
+    location: [Krefeld, Germany],
+    description: list(
+        [Leistungskurse: Mathe, Physik],
     ),
 )

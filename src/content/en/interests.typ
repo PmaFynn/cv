@@ -3,7 +3,7 @@
 #cvSection("Personal Interests")
 
 #cvInterestTags(
-    tags: ("FOSS", "Music", "Reading", "Working Out"),
+    tags: ("Literature", "FOSS", "GNU/Linux", "Music"),
 )
 
 #divider()
