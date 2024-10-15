@@ -1,6 +1,6 @@
 # CV
 
-Personal CV I use. Currenlty written in typst; might change back to LaTeX though. Feel free to make it your own.
+Personal CV I use. Currently written in Typst; might change back to LaTeX though. Feel free to make it your own.
 
 ## setup
 
