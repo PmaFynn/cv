@@ -22,5 +22,5 @@
 #skill("Rust", 3)
 #skill("Python", 3)
 #skill("Git", 4)
-#skill("JS, HTML/CSS", 3)
+#skill("JS, Vue, HTML/CSS", 3)
 #skill("Docker", 2)

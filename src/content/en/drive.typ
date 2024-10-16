@@ -4,6 +4,6 @@
 
 #cvInterestDescription(
     description: list(
-        [#lorem(15)]
+        [#lorem(30)]
     )
 )
