@@ -3,7 +3,7 @@
 #cvSection("Experience")
 
 #cvEntry(
-    title: [Working Student - QA Specialist],
+    title: [Working Student - Quality Assurance],
     organisation: [TOI TOI & DIXI Group GmbH],
     //TODO: insert toitoi & dixi group logo here
     logo: "",
