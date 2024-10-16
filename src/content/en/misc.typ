@@ -1,6 +1,6 @@
 #import "../../template.typ": *
 
-#cvSection("Misc")
+#cvSection("Miscellaneous")
 
 #cvInterestTags(
     tags: ("Driving Licence", "Typing (80+ wpm)"),

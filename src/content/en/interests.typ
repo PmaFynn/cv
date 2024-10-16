@@ -6,6 +6,7 @@
     tags: ("Literature", "FOSS", "GNU/Linux", "Music"),
 )
 
+/*
 #divider()
 
 #cvInterestDescription(
@@ -13,3 +14,5 @@
         [#lorem(15)]
     )
 )
+*/
+

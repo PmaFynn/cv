@@ -7,13 +7,14 @@
     gutter: 16pt,
     stack(
         spacing: 20pt,
+        autoImport("drive"),
+        autoImport("skills"),
         autoImport("experience"),
-        autoImport("education"),
     ),
     stack(
         spacing: 20pt,
-        autoImport("skills"),
         autoImport("languages"),
+        autoImport("education"),
         autoImport("interests"),
         autoImport("misc"),
     ),

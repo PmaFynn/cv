@@ -7,7 +7,7 @@
     organisation: [Universität Münster],
     //TODO: insert uni muenster logo here
     logo: "",
-    date: [10/2023 - now],
+    date: [10/2023 - Present],
     location: [Münster, Germany],
     description: list(
     ),
