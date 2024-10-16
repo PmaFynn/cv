@@ -35,6 +35,8 @@
     tags: ("PHP", "Docker" , "Jira", "JavaScript", "Vue", "SQL")
 )
 
+#divider()
+
 #cvEntry(
     title: [Working Student - Hyperautomation],
     organisation: [TOI TOI & DIXI Group GmbH],

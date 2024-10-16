@@ -7,7 +7,7 @@
     email: "fynn@fynnfr.org",
     github: "@pmafynn",
     homepage: "fynnfr.org",
-    location: "12.08.2001 in Krefeld, Germany",
+    location: "Krefeld, Germany",
     //TODO: maybe add something here -> current location or something
     //extraInfo: "",
 )

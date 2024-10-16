@@ -29,6 +29,8 @@
     ),
 )
 
+/*
+
 #divider()
 
 #cvEntry(
@@ -42,3 +44,4 @@
         [Leistungskurse: Mathe, Physik],
     ),
 )
+*/
