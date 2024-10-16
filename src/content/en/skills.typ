@@ -22,7 +22,7 @@
 #skill("Rust", 3)
 #skill("Python", 3)
 #skill("Git", 4)
-#skill("JS, Vue, HTML/CSS", 3)
+#skill("JS (Vue) , HTML/CSS", 3)
 #skill("Docker", 2)
 #skill("MS Office", 4)
 #skill("LaTeX, Typst", 4)
