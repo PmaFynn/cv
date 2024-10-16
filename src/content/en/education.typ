@@ -10,8 +10,9 @@
     date: [10/2023 - Present],
     location: [Münster, Germany],
     description: list(
+        [Focus on Information Systems Development and Data Science]
     ),
-    tags: ("Information Systems Development", "Data Analytics")
+    //tags: ("Information Systems Development", "Data Analytics")
 )
 
 #divider()
@@ -29,8 +30,6 @@
     ),
 )
 
-/*
-
 #divider()
 
 #cvEntry(
@@ -41,7 +40,6 @@
     date: [08/2011 - 06/2019],
     location: [Krefeld, Germany],
     description: list(
-        [Leistungskurse: Mathe, Physik],
+        [Major Subjects (ger.: Leistungskurse): Mathematics, Physics],
     ),
 )
-*/

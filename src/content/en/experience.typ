@@ -7,13 +7,13 @@
     organisation: [TOI TOI & DIXI Group GmbH],
     //TODO: insert toitoi & dixi group logo here
     logo: "",
-    date: [09/2024 - Present],
+    date: [08/2024 - Present],
     location: [Ratingen, Germany],
     //TODO: more jira tickets (manual), test automation with robot framework, rebuilding ci/cd pipeline (expierence from bachelor)
     description: list(
       [Managed and resolved Jira tickets from the point of quality assurance],
-      [Built out a testing infrastructure, integrated into our CI/CD pipeline, for our web applications using Robot Framework],
-      [Continuous maintainance of projects implemented previously]
+      [Developed automated test scripts using Robot Framework integrated into our CI/CD pipeline to increase test coverage and efficiency],
+      [Collaborated with development teams to identify and resolve software defects promptly],
     ),
     tags: ("Jira", "SQL", "Python", "Robot Framework")
 )
@@ -25,12 +25,11 @@
     organisation: [TOI TOI & DIXI Group GmbH],
     //TODO: insert toitoi & dixi group logo here
     logo: "",
-    date: [01/2024 - 08/2024],
+    date: [01/2024 - 07/2024],
     location: [Ratingen, Germany],
     //TODO: add list here -> mainly jira tickets and maintaining old projects and deploying new hyperautomation ones
     description: list(
-      [Managed and resolved Jira tickets (bug fixes, addition of small new features)],
-      [Continuous maintainance of projects implemented previously]
+      [Managed and resolved Jira tickets (mainly bug fixes)],
     ),
     tags: ("PHP", "Docker" , "Jira", "JavaScript", "Vue", "SQL")
 )
@@ -45,9 +44,10 @@
     location: [Ratingen, Germany],
     //TODO: write a lot here
     description: list(
-      [Created an inventory/single point of truth of the entire IT landscape employing no-/low code approaches hence supporting a transformation to a paperless work enviornment],
-      [Reimagining, implementation and maintainance of outdated solutions: Resource assessment for newly acquired companies, at least one more here ],
-      [R&D in Artificial Intelligence uses]
+      [Created a comprehensive inventory of the entire IT landscape using no-/low code approaches, supporting the transition to a paperless work environment],
+      [Established and soley maintained a resource assessment pipeline for newly acquired companies], 
+      [Designed, implemented, and soley maintained an application to gather monthly HR, fleet, and other reports across global tenantship],
+      [Redesigned and implemented the process by which sales employees obtain relevant company information for specific postal],
     ),
     tags: ("Power Automate", "Sharepoint", "SQL", "MS Forms")
 )

@@ -6,7 +6,7 @@
     phone: "+49 152 09207000",
     email: "fynn@fynnfr.org",
     github: "@pmafynn",
-    homepage: "fynnfr.org",
+    homepage: "work.fynnfr.org",
     location: "Krefeld, Germany",
     //TODO: maybe add something here -> current location or something
     //extraInfo: "",
@@ -14,7 +14,7 @@
 
 #let headerQuoteInternational = (
     "": [Senior Software Engineer looking for a full time job],
-    "en": [Computer Scientist looking for a student job],
+    "en": [Information Systems Student looking for a student job],
     "fr": [Ingénieur logiciel expérimenté cherchant un emploi à temps plein],
 )
 
