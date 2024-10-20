@@ -10,7 +10,7 @@
     date: [10/2023 - Present],
     location: [Münster, Germany],
     description: list(
-        [Focus on Information Systems Development and Data Science]
+        [Pursuing advanced studies in Information Systems Development and Data Science techniques]
     ),
     //tags: ("Information Systems Development", "Data Analytics")
 )
@@ -30,6 +30,8 @@
     ),
 )
 
+/*
+
 #divider()
 
 #cvEntry(
@@ -43,3 +45,4 @@
         [Major Subjects (ger.: Leistungskurse): Mathematics, Physics],
     ),
 )
+*/

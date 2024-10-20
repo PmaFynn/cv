@@ -9,6 +9,6 @@
 
 #cvLanguage(
     name: "English",
-    info: "C1",
+    info: "DAAD C1",
 )
 

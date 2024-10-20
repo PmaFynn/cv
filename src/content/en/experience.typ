@@ -11,7 +11,7 @@
     location: [Ratingen, Germany],
     //TODO: more jira tickets (manual), test automation with robot framework, rebuilding ci/cd pipeline (expierence from bachelor)
     description: list(
-      [Managed and resolved Jira tickets from the point of quality assurance],
+      [Managed and resolved Jira tickets, ensuring thorough quality assurance throughout the process],
       [Developed automated test scripts using Robot Framework integrated into our CI/CD pipeline to increase test coverage and efficiency],
       [Collaborated with development teams to identify and resolve software defects promptly],
     ),
@@ -44,10 +44,10 @@
     location: [Ratingen, Germany],
     //TODO: write a lot here
     description: list(
-      [Created a comprehensive inventory of the entire IT landscape using no-/low code approaches, supporting the transition to a paperless work environment],
-      [Established and soley maintained a resource assessment pipeline for newly acquired companies], 
-      [Designed, implemented, and soley maintained an application to gather monthly HR, fleet, and other reports across global tenantship],
-      [Redesigned and implemented the process by which sales employees obtain relevant company information for specific postal],
+      [Created a comprehensive inventory of the entire IT landscape /*using no-/low code approaches*/ supporting the transition to a paperless work environment],
+      [Established and solely maintained a resource assessment pipeline for newly acquired companies], 
+      [Designed, implemented, and solely maintained an application to gather monthly HR, fleet, etc. reports across global tenantship],
+      [Redesigned and implemented the process by which sales employees obtain relevant company information for specific postal codes],
     ),
     tags: ("Power Automate", "Sharepoint", "SQL", "MS Forms")
 )

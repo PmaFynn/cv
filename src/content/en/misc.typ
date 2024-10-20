@@ -3,5 +3,5 @@
 #cvSection("Miscellaneous")
 
 #cvInterestTags(
-    tags: ("Driving Licence", "Typing (80+ wpm)"),
+    tags: ("Driving Licence", "80+ wpm"),
 )

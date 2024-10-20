@@ -3,18 +3,18 @@
 #let lastName = "Friedrichs"
 
 #let personalInfo = (
-    phone: "+49 152 09207000",
-    email: "fynn@fynnfr.org",
-    github: "@pmafynn",
-    homepage: "work.fynnfr.org",
     location: "Krefeld, Germany",
+    phone: "+49 152 09207000",
+    email: "fynn@fynnfr.org                                                   ",
+    github: "github.com/PmaFynn",
+    homepage: "work.fynnfr.org",
     //TODO: maybe add something here -> current location or something
     //extraInfo: "",
 )
 
 #let headerQuoteInternational = (
     "": [Senior Software Engineer looking for a full time job],
-    "en": [Information Systems Student looking for a student job],
+    "en": [Information Systems Student looking for a new challenge],
     "fr": [Ingénieur logiciel expérimenté cherchant un emploi à temps plein],
 )
 
