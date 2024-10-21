@@ -222,7 +222,7 @@
         github: "󰊤",
         gitlab: "󰮠",
         location: "󰍎",
-        extraInfo: "",
+        linked: "☞",
         )
         let n = 1
         for (k, v) in personalInfo {
@@ -246,6 +246,8 @@
             } else if k == "gitlab" {
             link("https://gitlab.com/" + v)[#v]
             } else if k == "homepage" {
+            link("https://" + v)[#v]
+            } else if k == "linked" {
             link("https://" + v)[#v]
             } else {
             v
