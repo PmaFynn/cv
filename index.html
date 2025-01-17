@@ -3,139 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fynn Friedrichs</title>
+    <title>Simple HTML Page</title>
+    <style>
+        body {
+            background-color: rgb(245, 241, 241);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+        h1 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+        p {
+            margin: 0 0 20px;
+            color: #555;
+        }
+        .button {
+            background-color: #4CAF50;
+     color: white;
+            border: none;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            margin: 5px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-            !--TODO:  put into middle -->
-        <h1>Fynn Friedrichs</h1>
-
-        <div> 
-                <a href="cv.fynnfr.org/src/cv.pdf" target="_blank">My cv as pdf</a><br>
-        </div>
-
-        <div class="grid-row">
-            <div class="grid-left">
-                <h2>Contact</h2>
-            </div>
-            <div class="grid-right">
-                <p>
-                    Email: <a href="mailto:fynn@fynnfr.org">fynn@fynnfr.org</a><br>
-                        GitHub: <a href="https://github.com/PmaFynn">https://github.com/PmaFynn</a><br>
-                    LinkedIn: <a href="https://www.linkedin.com/in/fynnfr/">https://www.linkedin.com/in/fynnfr/</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="grid-row">
-            <div class="grid-left">
-                <h2>Skills</h2>
-            </div>
-            <div class="grid-right">
-                <h3>Technical Skills</h3>
-                    <p>SQL<br>Python, R, Rust<br>Web Technologies</p>
-                    <hr>
-                    <p>Docker<br>Git<br></p>
-                    <hr>
-                    <p>LaTeX<br>Typst<br></p>
-                    <hr>
-                    <p>MS Office<br>MS Power Plattform<br></p>
-
-                <h3>Languages</h3>
-                <p>
-                    English (C1 Advanced)<br>
-                    German (native)
-                </p>
-
-                <h3>Other</h3>
-                <p>
-                    Driving License<br>
-                    80+ wpm
-                </p>
-            </div>
-        </div>
-
-        <div class="grid-row">
-            <div class="grid-left">
-                <h2>Experience</h2>
-            </div>
-            <div class="grid-right">
-                <p>
-                    <a href="#">www.example.com</a> (Hugo)<br>
-                    Y2K-styled personal website.
-                </p>
-
-                <p>
-                    <a href="#">webapp.example.com</a> (TypeScript + Svelte)<br>
-                    Name picker app for nerds.
-                </p>
-
-                <p>
-                    <a href="#">project.example.com</a> (Rust)<br>
-                    Work in progress RISC-V based fantasy computer.
-                </p>
-            </div>
-        </div>
+        <h1>Welcome to my cv!</h1>
+        <p>Choose between my actual cv as a pdf or just get a quick overview on my cv webpage</p>
+        <a href="/src/cv.pdf" class="button">pdf</a>
+        <a href="/src/cv.html" class="button">webpage</a>
     </div>
-
-    <style>
-        body {
-            font-family: serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: rgb(245, 241, 241);
-        }
-
-        .container {
-            background-color: rgb(245, 241, 241);
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 32px;
-            margin-bottom: 30px;
-        }
-
-        h2 {
-            font-size: 24px;
-            margin: 0;
-        }
-
-        h3 {
-            font-size: 18px;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-
-        p {
-            margin: 10px 0;
-        }
-
-        a {
-            color: #ff0000;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .grid-row {
-            display: grid;
-            grid-template-columns: 200px 1fr;
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-
-        .grid-left {
-            text-align: left;
-        }
-
-        .grid-right {
-            text-align: left;
-        }
-    </style>
 </body>
 </html>
+
