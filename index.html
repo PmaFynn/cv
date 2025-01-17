@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
+    <title>cv welcome</title>
     <style>
         body {
             background-color: rgb(245, 241, 241);
@@ -32,28 +32,37 @@
         }
         .button {
             background-color: #4CAF50;
-     color: white;
+            color: white;
             border: none;
-            padding: 10px 15px;
+            padding: 10px;  /* Consistent vertical padding */
+            flex: 1;  /* Allow the buttons to grow and fill space equally */
             text-align: center;
             text-decoration: none;
-            display: inline-block;
+            display: inline-flex;  /* Updated from inline-block to inline-flex */
             border-radius: 5px;
-            margin: 5px 0;
+            margin: 5px;  /* Add margin around each button */
             cursor: pointer;
+            align-items: center;
             transition: background-color 0.3s;
+            justify-content: center;
         }
         .button:hover {
             background-color: #45a049;
+        }
+        .button-container {
+            display: flex;  /* Use flexbox to line buttons horizontally */
+            justify-content: center;  /* Centers the buttons */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to my cv!</h1>
-        <p>Choose between my actual cv as a pdf or just get a quick overview on my cv webpage</p>
-        <a href="/src/cv.pdf" class="button">pdf</a>
-        <a href="/src/cv.html" class="button">webpage</a>
+        <h1>My CV</h1>
+        <p>Feel free to choose between my actual cv as a pdf or just get a quick overview on my cv webpage</p>
+        <div class="button-container">
+            <a href="/src/cv.pdf" class="button">Pdf</a>
+            <a href="/src/cv.html" class="button">Webpage</a>
+        </div>
     </div>
 </body>
 </html>
