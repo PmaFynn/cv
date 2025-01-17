@@ -217,6 +217,35 @@
         .grid-right {
             text-align: left;
         }
+        /* Media query for mobile devices */
+    @media (max-width: 600px) {
+        .grid-row {
+            grid-template-columns: 1fr; /* Single column on mobile */
+        }
+
+        .grid-row2 {
+            grid-template-columns: 1fr; /* Single column for inner rows */
+        }
+
+        h1 {
+            font-size: 24px; /* Smaller header on mobile */
+        }
+
+        h2, h4 {
+            font-size: 20px; /* Smaller subheadings on mobile */
+        }
+
+        p {
+            margin: 8px 0; /* Slightly smaller margins for mobile */
+        }
+
+        .grid-row {
+            margin-bottom: 15px; /* Reduced margin for mobile rows */
+        }
+
+        a {
+            font-size: 14px; /* Smaller font size for links on mobile */
+        }
     </style>
 </body>
 </html>
