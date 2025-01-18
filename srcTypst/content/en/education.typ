@@ -10,7 +10,7 @@
     date: [10/2023 - Present],
     location: [Münster, Germany],
     description: list(
-        [Pursuing advanced studies in Information Systems Development and Data Science techniques]
+        [Tracks: Information Systems Development and Data Science techniques]
     ),
     //tags: ("Information Systems Development", "Data Analytics")
 )

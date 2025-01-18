@@ -6,7 +6,7 @@
     location: "Krefeld, Germany",
     phone: "+49 152 09207000",
     email: "fynn@fynnfr.org                                                  ",
-    homepage: "work.fynnfr.org",
+    // homepage: "work.fynnfr.org",
     github: "PmaFynn",
     linked: "linkedin.com/in/fynnfr",
     //TODO: maybe add something here -> current location or something

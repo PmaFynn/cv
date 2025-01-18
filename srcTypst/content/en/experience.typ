@@ -29,7 +29,7 @@
     location: [Ratingen, Germany],
     //TODO: add list here -> mainly jira tickets and maintaining old projects and deploying new hyperautomation ones
     description: list(
-      [Managed and resolved Jira tickets (mainly bug fixes)],
+      [Oversaw resolution of bug-related Jira tickets within both Vue.js frontend and PHP backend environments],
     ),
     tags: ("PHP", "Docker" , "Jira", "JavaScript", "Vue", "SQL")
 )
@@ -47,7 +47,7 @@
       [Created a comprehensive inventory of the entire IT landscape /*using no-/low code approaches*/ supporting the transition to a paperless work environment],
       [Established and solely maintained a resource assessment pipeline for newly acquired companies], 
       [Designed, implemented, and solely maintained an application to gather monthly HR, fleet, etc. reports across global tenantship],
-      [Redesigned and implemented the process by which sales employees obtain relevant company information for specific postal codes],
+      [Streamlined method for sales team to fetch important company data linked to specific postal codes],
     ),
     tags: ("Power Automate", "Sharepoint", "SQL", "MS Forms")
 )
