@@ -145,6 +145,11 @@
                 </p>
             </div>
         </div>
+        <footer class="footer">
+            <p>
+                Visit <a href="https://fynnfr.org" target="_blank">fynnfr.org</a>
+            </p>
+        </footer>
     </div>
 
     <style>
@@ -217,7 +222,19 @@
         .grid-right {
             text-align: left;
         }
-        /* Media query for mobile devices */
+        /* Footer Styling */
+        .footer {
+            margin-top: 40px;
+            padding: 10px 0;
+            text-align: center;
+            border-top: 1px solid #ccc;
+            background-color: rgb(245, 241, 241);
+        }
+
+        .footer a {
+            font-weight: bold;
+        }
+    /* Media query for mobile devices */
     @media (max-width: 600px) {
         .grid-row {
             grid-template-columns: 1fr; /* Single column on mobile */
