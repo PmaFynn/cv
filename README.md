@@ -8,7 +8,7 @@ Personal CV I use. Currently written in Typst; might change back to LaTeX though
 sudo pacman -S typst
 git clone git@github.com:PmaFynn/cv.git
 cd cv
-typst compile src/cv.typ path/to/output.pdf
+typst compile srcTypst/cv.typ srcTypst/cv.pdf
 ```
 
 ## License

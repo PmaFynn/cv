@@ -25,7 +25,7 @@
     date: [10/2019 - 03/2023],
     location: [Münster, Germany],
     description: list(
-        [Practical bachelor thesis: Integration of Frontend Testing into a CI/CD Pipeline; Grade: 1.0],
+        [Practical bachelor thesis: Integration of Frontend Testing into a CI/CD Pipeline; Grade: 1.0 - Highest Distinction],
         //[Final grade: 2.0],
     ),
 )
