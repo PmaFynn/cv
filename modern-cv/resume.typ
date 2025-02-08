@@ -59,7 +59,7 @@ transition and enhancing global reporting efficiency.
 )
 
 #resume-item[
-  - Oversaw resolution of bug-related Jira tickets.
+  - Debugged and resolved Jira-tracked issues in Vue.js frontend and PHP backend.
   - _Technologies: PHP, Git, Jira, JavaScript, Vue.js, SQL._
 ]
 
