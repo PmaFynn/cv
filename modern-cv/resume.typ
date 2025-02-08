@@ -5,11 +5,11 @@
     firstname: "Fynn",
     lastname: "Friedrichs",
     email: "fynn091209@proton.me",
-    homepage: "https://fynnfr.org",
+    homepage: "fynnfr.org",
     phone: "(+49) 152 09207000",
     github: "PmaFynn",
     birth: "August 12, 2001",
-    linkedin: "linkedin.com/in/fynnfr",
+    // linkedin: "linkedin.com/in/fynnfr",
     address: "Krefeld, Germany",
     positions: (
       "Hyperautomation Engineer",
@@ -17,7 +17,7 @@
       "Web Developer",
     ),
   ),
-  profile-picture: none,
+  profile-picture: image("./cv.png"),
   date: datetime.today().display(),
   language: "en",
   colored-headers: true,
@@ -48,7 +48,7 @@ transition and enhancing global reporting efficiency.
   - Developed automated test scripts using Robot Framework, integrated into CI/CD pipelines.
   - Collaborated with development teams to identify and resolve software defects promptly.
   - Collaboratively refactored the entire codebase to align with newly defined best practices, improving maintainability and readability.
-  - Technologies: Jira, SQL, Git, Docker, Python, Robot Framework, Selenium.
+  - _Technologies: Jira, SQL, Git, Docker, Python, Robot Framework, Selenium._
 ]
 
 #resume-entry(
@@ -60,7 +60,7 @@ transition and enhancing global reporting efficiency.
 
 #resume-item[
   - Oversaw resolution of bug-related Jira tickets.
-  - Technologies: PHP, Git, Jira, JavaScript, Vue.js, SQL.
+  - _Technologies: PHP, Git, Jira, JavaScript, Vue.js, SQL._
 ]
 
 #resume-entry(
@@ -75,7 +75,7 @@ transition and enhancing global reporting efficiency.
   - Designed and maintained a resource assessment pipeline for newly acquired companies.
   - Developed an application to collect global HR, fleet, and financial reports.
   - Streamlined data access for sales teams using postal code-based queries.
-  - Technologies: Power Automate, SharePoint, SQL, MS Forms.
+  - _Technologies: Power Automate, SharePoint, SQL_
 ]
 
 /* 
@@ -110,7 +110,7 @@ transition and enhancing global reporting efficiency.
 
 #resume-skill-item(
   "Languages",
-  (strong("Python"), strong("SQL"), "Java", "R", "JavaScript"),
+  (strong("Python"), strong("SQL"), "Java", "Rust"),
 )
 #resume-skill-item("Spoken Languages", (strong("English"), strong("German")))
 #resume-skill-item("Automation", (strong("Power Automate"), strong("Robot Framework"), "CI/CD", "Docker"))
@@ -129,7 +129,8 @@ transition and enhancing global reporting efficiency.
 )
 
 #resume-item[
-  - Specialization: Information Systems Development and Data Science, with a focus on machine learning, unsupervised learning, data integration, and mining massive datasets.
+  // - Specialization: Information Systems Development and Data Science, with a focus on machine learning, unsupervised learning, data integration, and mining massive datasets.
+  - Specialization Tracks: Information Systems Development and *Data Science*
 ]
 
 #resume-entry(
@@ -159,7 +160,7 @@ transition and enhancing global reporting efficiency.
 
 #resume-item[
   - Passionate about: Literature, Free & Open-Source Software, Linux, Bouldering
-  - Driving License
-  - Typing Speed: 80+ WPM
+  - German Driving License
+  // - Typing Speed: 80+ WPM
 ]
 
