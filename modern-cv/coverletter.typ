@@ -9,7 +9,7 @@
     phone: "(+49) 152 09207000",
     github: "PmaFynn",
     birth: "August 12, 2001",
-    linkedin: "linkedin.com/in/fynnfr",
+    linkedin: "fynnfr",
     address: "Krefeld, Germany",
     positions: (
       "Hyperautomation Engineer",
@@ -19,35 +19,69 @@
   ),
   profile-picture: image("./cv.png"),
   date: datetime.today().display(),
-  language: "en",
+  language: "de",
   font: "Times New Roman",
   show-footer: false,
   paper-size: "us-letter",
 )
 
 #hiring-entity-info(entity-info: (
-  target: "Damen und Herren",
-  name: "Deloitte GmbH",
-  street-address: "1600 AMPHITHEATRE PARKWAY",
-  city: "MOUNTAIN VIEW, CA 94043",
+  target: "People & Culture Team",
+  name: "Grant Thornton AG",
+  street-address: "Johannstraße 39",
+  city: "40476 Düsseldorf, Deutschland",
 ))
 
 #letter-heading(
-  job-position: "Software Engineer",
-  addressee: "Sir or Madame",
+  job-position: "Werkstudent im Bereich Advisory – Digitale Transformation",
+  addressee: "Damen und Herren",
 )
 
-= About Me
+= Über mich
 #coverletter-content[
-  #lorem(80)
+Als Masterstudent der Wirtschaftsinformatik (Information Systems) an der Universität Münster
+  und mit umfangreicher Erfahrung in Softwarequalitätssicherung,
+  Hyperautomation und Webentwicklung bringe ich eine fundierte
+  technische Expertise mit. In meinen bisherigen Tätigkeiten als
+  Werkstudent bei der TOI TOI & DIXI Group habe ich erfolgreich
+  automatisierte Testprozesse implementiert, Code-Refactorings
+  durchgeführt und insbesondere Geschäftsprozesse optimiert. Besonders die Arbeit
+  mit Python und Automatisierungstechnologien wie Power Automate
+  bzw. Power Platform im Allgemeinen haben mich begeistert. Ich bin neugierig, analytisch und schätze
+  es, im Team innovative Lösungen zu entwickeln.
 ]
 
-= Why Google?
+= Warum Grant Thornton?
 #coverletter-content[
-  #lorem(90)
+Die Möglichkeit, als Werkstudent in einem interdisziplinären Team aus
+  Beratern und IT-Experten innovative Softwarelösungen zu entwickeln,
+  entspricht genau meinen Interessen und Fähigkeiten. Besonders
+  spannend finde ich die Arbeit mit Low-Code-Plattformen und Large
+  Language Models. Mein Studium mit Schwerpunkten in Information
+  Systems Development und Data Science bietet mir das ideale
+  theoretische Fundament, um einen wertvollen Beitrag zu leisten.
+  Grant Thornton hebt sich durch seinen ganzheitlichen Ansatz in der
+  digitalen Transformation hervor – ein Umfeld, in dem ich meine
+  Fähigkeiten optimal einbringen und weiterentwickeln kann.
 ]
 
-= Why Me?
+= Warum ich?
 #coverletter-content[
-  #lorem(100)
+Meine Erfahrungen in der Softwarequalitätssicherung und Automatisierung
+  ermöglichen es mir, bestehende Prozesse effizient zu analysieren
+  und zu verbessern. Durch meine Arbeit
+  mit verschiedenen Automatisierungstools habe ich gelernt, strukturierte
+  und nachhaltige Lösungen zu entwickeln. Darüber hinaus bin ich es
+  gewohnt, eigenverantwortlich zu arbeiten und mich kontinuierlich in
+  neue Technologien einzuarbeiten. Mein tiefes Interesse an Data
+  Science und meine Programmierkenntnisse in Python passen ideal zu
+  den Anforderungen dieser Position. Ich bin hochmotiviert, gemeinsam
+  mit Ihnen innovative Lösungen zu entwickeln und einen direkten
+  Mehrwert für Ihre Kunden zu schaffen.
 ]
+
+Ich freue mich darauf, Sie in einem persönlichen Gespräch kennenzulernen und mehr über die Position zu erfahren.
+
+Mit freundlichen Grüßen,  
+
+Fynn Friedrichs
