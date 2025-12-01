@@ -1,3 +1,4 @@
+//TODO: Fix icons
 #import "@preview/modern-cv:0.9.0": *
 
 #show: resume.with(
@@ -23,7 +24,8 @@
   language: "en",
   colored-headers: true,
   show-footer: false,
-  paper-size: "us-letter",
+  //paper-size: "us-letter",
+  paper-size: "a4",
 )
 
 = Motivation
