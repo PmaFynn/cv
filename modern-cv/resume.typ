@@ -1,4 +1,4 @@
-#import "@preview/modern-cv:0.8.0": *
+#import "@preview/modern-cv:0.9.0": *
 
 #show: resume.with(
   author: (
@@ -12,9 +12,10 @@
     // linkedin: "linkedin.com/in/fynnfr",
     address: "Krefeld, Germany",
     positions: (
-      "Hyperautomation Engineer",
+      "Data Scientist",
       "Software Quality Engineer",
-      "Web Developer",
+      "Hyperautomation Engineer",
+      // "Web Developer",
     ),
   ),
   profile-picture: image("./cv.png"),
@@ -27,26 +28,43 @@
 
 = Motivation
 
-Proven achiever with significant experience at TOI TOI & DIXI Group,
-specializing in hyperautomation, quality assurance, and web development. Adept
-at streamlining operations and boosting software quality through innovative
-automated testing and proactive bug resolution. Skilled in Python and
-collaborative problem-solving, contributing to a successful paperless
-transition and enhancing global reporting efficiency.
+Data-driven professional with growing expertise in data science, currently supporting ARAG SE in building reliable reporting pipelines, conducting economic analyses, and enabling data-informed decision-making. Strong foundation in Python, Databricks, and Power BI, complemented by prior experience in automation, software quality, and process optimization. I aim to further specialize in data science to deliver scalable insights and measurable business value.
+
+// TODO: rewrite obv
+// Proven achiever with significant experience at TOI TOI & DIXI Group,
+// specializing in hyperautomation, quality assurance, and web development. Adept
+// at streamlining operations and boosting software quality through innovative
+// automated testing and proactive bug resolution. Skilled in Python and
+// collaborative problem-solving, contributing to a successful paperless
+// transition and enhancing global reporting efficiency.
 
 = Experience
+
+#resume-entry(
+  title: "Working Student - Data Analytics",
+  location: "ARAG SE, Duesseldorf, Germany",
+  date: "June 2025 - Present",
+  description: "Ensured software quality through automation and issue resolution.",
+)
+
+#resume-item[
+  - Created and maintained Power BI reports to track, for example, estimated cost savings and their extrapolation into the future
+  - Carried out ad hoc analysis of economic viability of different processes (e.g., rate reductions and settlement lump sum effects)
+  - Implemented the transition to Databricks as main development environment (incl. refactoring of multiple PBI and Shiny reports)
+  - _Technologies: Python (e.g., pandas, NumPy, seaborn and Matplotlib), Git, Databricks, SQL, Power BI, Powerpoint_
+]
 
 #resume-entry(
   title: "Working Student - Quality Assurance",
   location: "TOI TOI & DIXI Group GmbH, Ratingen, Germany",
   date: "August 2024 - Present",
-  description: "Ensured software quality through automation and issue resolution."
+  description: "Ensured software quality through automation and issue resolution.",
 )
 
 #resume-item[
   - Managed and resolved Jira tickets, ensuring thorough quality assurance.
   - Developed automated test scripts using Robot Framework, integrated into CI/CD pipelines.
-  - Collaborated with development teams to identify and resolve software defects promptly.
+  // - Collaborated with development teams to identify and resolve software defects promptly.
   - Collaboratively refactored the entire codebase to align with newly defined best practices, improving maintainability and readability.
   - _Technologies: Jira, SQL, Git, Docker, Python, Robot Framework, Selenium._
 ]
@@ -55,11 +73,11 @@ transition and enhancing global reporting efficiency.
   title: "Working Student - Web Development",
   location: "TOI TOI & DIXI Group GmbH, Ratingen, Germany",
   date: "January 2024 - July 2024",
-  description: "Focused on web development and bug resolution."
+  description: "Focused on web development and bug resolution.",
 )
 
 #resume-item[
-  - Debugged and resolved Jira-tracked issues in Vue.js frontend and PHP backend.
+  // - Debugged and resolved Jira-tracked issues in Vue.js frontend and PHP backend.
   - _Technologies: PHP, Git, Jira, JavaScript, Vue.js, SQL._
 ]
 
@@ -67,18 +85,18 @@ transition and enhancing global reporting efficiency.
   title: "Working Student - Hyperautomation",
   location: "TOI TOI & DIXI Group GmbH, Ratingen, Germany",
   date: "July 2023 - December 2023",
-  description: "Implemented automation processes and optimized IT workflows."
+  description: "Implemented automation processes and optimized IT workflows.",
 )
 
 #resume-item[
-  - Created a comprehensive inventory of the IT landscape for a paperless transition.
+  // - Created a comprehensive inventory of the IT landscape for a paperless transition.
   - Designed and maintained a resource assessment pipeline for newly acquired companies.
   - Developed an application to collect global HR, fleet, and financial reports.
   - Streamlined data access for sales teams using postal code-based queries.
   - _Technologies: Power Automate, SharePoint, SQL_
 ]
 
-/* 
+/*
 = Projects
 
 #resume-entry(
@@ -113,10 +131,22 @@ transition and enhancing global reporting efficiency.
   (strong("Python"), strong("SQL"), "Java", "Rust"),
 )
 #resume-skill-item("Spoken Languages", (strong("English"), strong("German")))
-#resume-skill-item("Automation", (strong("Power Automate"), strong("Robot Framework"), "CI/CD", "Docker"))
+#resume-skill-item("Automation", (
+  strong("Power Automate"),
+  strong("Robot Framework"),
+  "CI/CD",
+  "Docker",
+))
 #resume-skill-item(
   "Technical Skills",
-  (strong("Git"), strong("LaTeX"), strong("Jira"), "SharePoint", "MS Office", "Typst"),
+  (
+    strong("Git"),
+    strong("LaTeX"),
+    strong("Jira"),
+    "SharePoint",
+    "MS Office",
+    "Typst",
+  ),
 )
 
 = Education
