@@ -6,11 +6,11 @@
     firstname: "Fynn",
     lastname: "Friedrichs",
     email: "fynn091209@proton.me",
-    homepage: "fynnfr.org",
+    // homepage: "fynnfr.org",
     phone: "(+49) 152 09207000",
     github: "PmaFynn",
     birth: "August 12, 2001",
-    // linkedin: "linkedin.com/in/fynnfr",
+    linkedin: "linkedin.com/in/fynnfr",
     address: "Krefeld, Germany",
     positions: (
       "Data Scientist",
@@ -30,7 +30,7 @@
 
 = Motivation
 
-Data-driven professional with growing expertise in data science, currently supporting ARAG SE in building reliable reporting pipelines, conducting economic analyses, and enabling data-informed decision-making. Strong foundation in Python, Databricks, and Power BI, complemented by prior experience in automation, software quality, and process optimization. I aim to further specialize in data science to deliver scalable insights and measurable business value.
+Data-driven professional with growing expertise in data science, currently supporting ARAG SE in building reliable reporting pipelines, conducting economic analyses, and enabling data-informed decision-making. Strong foundation in Machine Learning and Power BI, with experience in automation and process optimization. I aim to specialize in data science to deliver scalable insights and measurable business value.
 
 // TODO: rewrite obv
 // Proven achiever with significant experience at TOI TOI & DIXI Group,
@@ -46,20 +46,20 @@ Data-driven professional with growing expertise in data science, currently suppo
   title: "Working Student - Data Analytics",
   location: "ARAG SE, Duesseldorf, Germany",
   date: "June 2025 - Present",
-  description: "Ensured software quality through automation and issue resolution.",
+  description: "Driving data-informed decision-making",
 )
 
 #resume-item[
   - Created and maintained Power BI reports to track, for example, estimated cost savings and their extrapolation into the future
   - Carried out ad hoc analysis of economic viability of different processes (e.g., rate reductions and settlement lump sum effects)
-  - Implemented the transition to Databricks as main development environment (incl. refactoring of multiple PBI and Shiny reports)
+  - Implemented the transition to Databricks as main development environment (incl. refactoring of multiple PBI reports)
   - _Technologies: Python (e.g., pandas, NumPy, seaborn and Matplotlib), Git, Databricks, SQL, Power BI, Powerpoint_
 ]
 
 #resume-entry(
   title: "Working Student - Quality Assurance",
   location: "TOI TOI & DIXI Group GmbH, Ratingen, Germany",
-  date: "August 2024 - Present",
+  date: "August 2024 - May 2024",
   description: "Ensured software quality through automation and issue resolution.",
 )
 
@@ -156,7 +156,7 @@ Data-driven professional with growing expertise in data science, currently suppo
 #resume-entry(
   title: "University of Muenster",
   location: "Muenster, Germany",
-  date: "October 2023 - March 2026",
+  date: "October 2023 - May 2026",
   description: "M.Sc. in Information Systems",
 )
 
@@ -192,7 +192,7 @@ Data-driven professional with growing expertise in data science, currently suppo
 
 #resume-item[
   - Passionate about: Literature, Free & Open-Source Software, Linux, Bouldering
-  - German Driving License
+  // - German Driving License
   // - Typing Speed: 80+ WPM
 ]
 
