@@ -50,16 +50,19 @@ Data-driven professional with growing expertise in data science, currently suppo
 )
 
 #resume-item[
-  - Created and maintained Power BI reports to track, for example, estimated cost savings and their extrapolation into the future
-  - Carried out ad hoc analysis of economic viability of different processes (e.g., rate reductions and settlement lump sum effects)
-  - Implemented the transition to Databricks as main development environment (incl. refactoring of multiple PBI reports)
-  - _Technologies: Python (e.g., pandas, NumPy, seaborn and Matplotlib), Git, Databricks, SQL, Power BI, Powerpoint_
+  - Created and maintained Power BI reports to track, for example, estimated cost savings and their extrapolation into the future.
+  // - Carried out ad hoc analysis of economic viability of different processes (e.g., rate reductions and settlement lump sum effects).
+  - Evaluated the economic viability of insurance processes (e.g., rate reductions, settlement lump sum effects) using descriptive statistics and Generalized Linear Models (GLMs) to drive data-informed strategy.
+  // - Implemented the transition to Databricks as main development environment (incl. refactoring of multiple PBI reports).
+  // - Refactored Power BI Power Query steps into Databricks to improve data pipeline scalability and ensure a more maintainable architecture.
+  - Migrated Power BI transformation logic to Databricks, streamlining ETL processes and enhancing code maintainability.
+  - _Technologies: Python (e.g., pandas, NumPy, seaborn and Matplotlib), Git, Azure Databricks, SQL, Power BI, Powerpoint_
 ]
 
 #resume-entry(
   title: "Working Student - Quality Assurance",
   location: "TOI TOI & DIXI Group GmbH, Ratingen, Germany",
-  date: "August 2024 - May 2024",
+  date: "August 2024 - May 2025",
   description: "Ensured software quality through automation and issue resolution.",
 )
 
@@ -67,7 +70,7 @@ Data-driven professional with growing expertise in data science, currently suppo
   - Managed and resolved Jira tickets, ensuring thorough quality assurance.
   - Developed automated test scripts using Robot Framework, integrated into CI/CD pipelines.
   // - Collaborated with development teams to identify and resolve software defects promptly.
-  - Collaboratively refactored the entire codebase to align with newly defined best practices, improving maintainability and readability.
+  - Collaboratively refactored the entire codebase to align with newly defined best practices, improving maintainability.
   - _Technologies: Jira, SQL, Git, Docker, Python, Robot Framework, Selenium._
 ]
 
@@ -156,20 +159,21 @@ Data-driven professional with growing expertise in data science, currently suppo
 #resume-entry(
   title: "University of Muenster",
   location: "Muenster, Germany",
-  date: "October 2023 - May 2026",
+  date: "October 2023 - June 2026",
   description: "M.Sc. in Information Systems",
 )
 
 #resume-item[
   // - Specialization: Information Systems Development and Data Science, with a focus on machine learning, unsupervised learning, data integration, and mining massive datasets.
   - Specialization Tracks: Information Systems Development and *Data Science*
+  // - Master Thesis: Multi-Objective Neural Architecture Search: A Comparative Study of MCUNet and Multi-Objective Bayesian Optimization with Reinforcement Learning
 ]
 
 #resume-entry(
   title: "University of Muenster",
   location: "Muenster, Germany",
   date: "October 2019 - March 2023",
-  description: "B.Sc. in Information Systems",
+  description: "B.Sc. in Information Systems (Ger: Wirtschaftsinformatik)",
 )
 
 #resume-item[
